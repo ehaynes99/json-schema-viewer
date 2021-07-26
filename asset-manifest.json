@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/json-schema-viewer/static/css/main.e9d88434.chunk.css",
+    "main.js": "/json-schema-viewer/static/js/main.be7bd78a.chunk.js",
+    "main.js.map": "/json-schema-viewer/static/js/main.be7bd78a.chunk.js.map",
+    "runtime-main.js": "/json-schema-viewer/static/js/runtime-main.5c3ce1a6.js",
+    "runtime-main.js.map": "/json-schema-viewer/static/js/runtime-main.5c3ce1a6.js.map",
+    "static/css/2.7b9072a2.chunk.css": "/json-schema-viewer/static/css/2.7b9072a2.chunk.css",
+    "static/js/2.89560d80.chunk.js": "/json-schema-viewer/static/js/2.89560d80.chunk.js",
+    "static/js/2.89560d80.chunk.js.map": "/json-schema-viewer/static/js/2.89560d80.chunk.js.map",
+    "static/js/3.878d4b0a.chunk.js": "/json-schema-viewer/static/js/3.878d4b0a.chunk.js",
+    "static/js/3.878d4b0a.chunk.js.map": "/json-schema-viewer/static/js/3.878d4b0a.chunk.js.map",
+    "index.html": "/json-schema-viewer/index.html",
+    "static/css/2.7b9072a2.chunk.css.map": "/json-schema-viewer/static/css/2.7b9072a2.chunk.css.map",
+    "static/css/main.e9d88434.chunk.css.map": "/json-schema-viewer/static/css/main.e9d88434.chunk.css.map",
+    "static/js/2.89560d80.chunk.js.LICENSE.txt": "/json-schema-viewer/static/js/2.89560d80.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c3ce1a6.js",
+    "static/css/2.7b9072a2.chunk.css",
+    "static/js/2.89560d80.chunk.js",
+    "static/css/main.e9d88434.chunk.css",
+    "static/js/main.be7bd78a.chunk.js"
+  ]
+}
