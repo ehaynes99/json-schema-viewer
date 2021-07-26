@@ -1,8 +1,9 @@
 import './App.scss'
+import SchemaViewerPage from './SchemaViewerPage'
 
 const App = () => (
   <div className="application-container">
-    If there were actual application content, it would go here...
+    <SchemaViewerPage />
   </div>
 )
 

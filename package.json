@@ -2,30 +2,20 @@
   "name": "json-schema-viewer",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@babel/eslint-parser": "^7.12.13",
-    "@testing-library/jest-dom": "^5.11.9",
-    "@testing-library/react": "^11.2.5",
-    "@testing-library/react-hooks": "^5.0.3",
-    "@testing-library/user-event": "^12.6.3",
-    "eslint-config-erich-react": "^0.0.6",
-    "husky": "^4.3.7",
-    "lint-staged": "^10.5.4",
-    "node-sass": "^5.0.0",
-    "prettier": "^2.2.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.0"
-  },
+  "homepage": "https://ehaynes99.github.io/json-schema-viewer",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": "erich-react"
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache"
   },
   "browserslist": {
     "production": [
@@ -39,12 +29,30 @@
       "last 1 safari version"
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.js": "eslint --cache"
+  "dependencies": {
+    "@babel/eslint-parser": "^7.12.13",
+    "@stoplight/json-schema-viewer": "^4.1.0",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/react-hooks": "^5.0.3",
+    "@testing-library/user-event": "^12.6.3",
+    "eslint-config-erich-react": "^0.0.6",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-config-standard-react": "^11.0.1",
+    "eslint-import-resolver-node": "^0.3.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "gh-pages": "^3.2.3",
+    "husky": "^4.3.7",
+    "lint-staged": "^10.5.4",
+    "node-sass": "^5.0.0",
+    "prettier": "^2.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "skeleton-css": "^2.0.4",
+    "web-vitals": "^1.1.0"
   }
 }

@@ -1,0 +1,27 @@
+@import '~@stoplight/mosaic/styles.css';
+@import '~@stoplight/mosaic/themes/default.css';
+@import '~skeleton-css/css/skeleton.css';
+
+.schema-viewer-page {
+  display: flex;
+  width: 100%;
+  justify-content: stretch;
+  min-height: 50vh;
+
+  form {
+    min-width: 100%;
+    height: 100%;
+
+    textarea {
+      box-sizing: border-box;
+      height: calc(100% - 85px);
+    }
+  }
+
+  .panel {
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 100px;
+  }
+}
